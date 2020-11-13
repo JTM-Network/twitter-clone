@@ -1,0 +1,13 @@
+
+.idea
+feed-service/gradle
+feed-service/.gradle
+feed-service/gradlew
+feed-service/gradlew.bat
+feed-service/build
+
+profile-service/gradlew.bat
+profile-service/gradlew
+profile-service/gradle
+profile-service/.gradle
+profile-service/build
