@@ -1,0 +1,18 @@
+server:
+  port: 9066
+
+spring:
+  application:
+    name: jtm-twitter-feed
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+  data:
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+reactor:
+  ipc:
+    netty:
+      workerCount: 1
